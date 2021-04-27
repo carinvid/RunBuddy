@@ -2,11 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .navbar {
-  background: teal;
+  background: #39a6b2;
   display: 60px;
   height: 60;
   display: flex;
@@ -40,7 +40,7 @@
   height: 80px;
 }
 .navbar__links {
-  color: yellow;
+  color: #fce138;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,8 +49,27 @@
   height: 100%;
 }
 
+.hero {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 60px;
+  background-image: url("./images/hero-bg.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #024e76;
+}
+
 .nav__sec {
-  color: teal;
+  color: #39a6b2;
   display: flex;
   align-items: left;
   justify-content: left;
@@ -61,15 +80,21 @@
 }
 
 .footer {
-  background: yellow;
-  display: 80px;
-  height: 100;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  font-size: 1rem;
-  position: sticky;
-  bottom: 0;
-  z-index: 999;
-  padding: 2rem 0;
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+.footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+.footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+.footer a {
+  color: #024e76;
 }

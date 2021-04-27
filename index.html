@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!----Navbar-->
+
         <nav class="navbar">
             <div class="navbar__container">
                 <a href="index.html" class="navbar__links"><h1>RUN BUDDY</h1></a>
@@ -32,6 +34,41 @@
                 </ul>
             </div>
         </nav>
+        <!---hero section-->
+        <!------Login-->
+        <div class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today!</h3>
+                <P>Fill out this form and one of our trainers will schedule a consult</P>
+                <br>
+                <form action="/">
+                    <label for="fname">Enter full name:</label><br>
+                    <input type="text" id="fname" name="fname" value="Your Name"><br><br>
+                    <label for="email">Enter email address: </label><br><br>
+                    <input type="text" id="email" name="email" value="Email address"><br><br>
+                    <label for="number">Enter a telephone number:</label><br><br>
+                    <input type="text" id="number" name="number" value="Phone Number"><br><br>
+                </form>    
+                <form>
+                    Have you worked out with a trainer before
+                    <input type="radio" id="trainer-yes" name="trainer-confirm">
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" id="trainer-no" name="trainer-confirm">
+                    <label for="trainer-no">No</label><br><br>
+                </form>
+                <form>
+                    I acknowledge that I am at least 18 years of age
+                    <input type="checkbox"><br><br>
+                    <button type="submit">
+                        Get running!
+                      </button>
+                </form>
+            </div>
+        </div>
+
+        <!----end hero------>
+
+        <!-----Sections-->
         <nav class="sections">
         <ul class="navbar__sec">
             <li class="navbar__item">
@@ -50,8 +87,11 @@
         </nav>
 
     <div class="footer">
-        <h3>&#128151 Made with love by Run Buddy</h3></footer>
-        <p>Read Our Privacy policy</p>
+        <h2>&#128151 Made with love by Run Buddy</h2></footer>
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br />
+            &copy; 2019 Run Buddy, Inc.
+          </div>
     </div>  
     </body>
 </html>
