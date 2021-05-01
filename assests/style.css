@@ -111,22 +111,6 @@
   font-size: 16px;
 }
 
-/* secondary hero*/
-
-.sec-hero {
-  margin: 20px;
-  font-size: 20px;
-  background-color: white;
-  color: blue;
-}
-
-.sec-hero h1 {
-  margin: 20px;
-  background-color: black;
-  font-size: 20px;
-  color: red;
-}
-
 .intro {
   text-align: center;
 }
