@@ -7,3 +7,7 @@ A website that offers fitness training services
 * CSS
 
 ##Website
+https://carinvid.github.io/RunBuddy/
+
+### Contribution
+Made with heart by Carolina Reedy
